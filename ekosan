@@ -1,0 +1,38 @@
+#!/usr/bin/env php
+<?php
+	## deprecated
+	$data = readline('Command: ');
+	switch ($data) {
+		case 'serve':
+			
+			$res = exec('php -S 127.0.0.1:55273');
+			touch(__DIR__ . '/logs/ekosan/' . date('Y-m-d') . '.log');
+			file_put_contents(__DIR__ . '/logs/ekosan/' . date('Y-m-d') . '.log', $res);
+			print_r(__DIR__ . '/logs/ekosan/' . date('Y-m-d') . '.log');
+			
+			
+			break;
+		
+		case "cache:clear":
+			$themeName = readline('Theme Name: ') ?? null;
+			
+			if ($themeName !== null) {
+				if (is_dir(__DIR__ . '/themes/' . $themeName)) {
+					$cacheFiles = glob(__DIR__ . '/themes/' . $themeName . '/cache/*.php');
+					
+					foreach ($cacheFiles as $file) {
+						unlink($file);
+					}
+					print_r($themeName . "'s Cache Has Been Cleared Successfully");
+				} else {
+					print_r("You entered the Theme Name Wrong");
+				}
+			} else {
+				print_r("Theme Name Cannot Be Empty!");
+			}
+			break;
+		
+		default:
+            print_r("Error");
+			break;
+	}
