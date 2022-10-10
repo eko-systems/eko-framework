@@ -2,8 +2,6 @@
 
 ---
 
-##### Writed by ebubekiryazgan
-
 ### Todo
 - [x] Geri dönüşlü yönlendirme ``Redirect``
 - [x] ``POST`` ve ``GET`` parametrelerini açıksız alma
