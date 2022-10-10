@@ -1,0 +1,34 @@
+{
+    "name": "eko/freamwork",
+    "description": "Eko PHP Framwork",
+    "authors": [
+        {
+            "name": "bilinmez1i",
+            "email": "yazganebubekir4@gmail.com"
+        }
+    ],
+    "require": {
+        "izniburak/router": "2.3",
+        "bekiryazgann/ekodb": "^1.2",
+        "arrilot/dotenv-php": "^2.0",
+        "jenssegers/blade": "^1.4",
+        "filp/whoops": "^2.14",
+        "nesbot/carbon": "^2.62",
+        "aura/session": "^2.1",
+        "verot/class.upload.php": "^2.1",
+        "vlucas/valitron": "^1.4",
+        "ausi/slug-generator": "^1.1",
+        "monolog/monolog": "^2.8",
+        "symfony/translation": "^6.0",
+        "ext-http": "*",
+        "ext-readline": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "./core"
+        },
+        "files": [
+            "core/helpers.php"
+        ]
+    }
+}

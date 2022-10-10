@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box
+}
+
+.getValidatorError {
+    padding: 6px;
+    background: #f8d7da;
+    margin-top: 10px;
+    border-radius: .375rem;
+    border: 1px solid #f5c2c7;
+    color: #842029;
+    font-size: 15px;
+}

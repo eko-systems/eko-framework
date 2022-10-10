@@ -1,0 +1,5 @@
+[2022-10-08T01:08:42.610233+03:00] name.WARNING: Type: 2; Message: Undefined variable $eeEeeeşfi; File: /Applications/MAMP/htdocs/eko-freamwork/index.php; Line: 19; [] []
+[2022-10-08T12:37:54.859787+03:00] name.WARNING: Type: 2; Message: Undefined variable $e; File: /Applications/MAMP/htdocs/eko-freamwork/index.php; Line: 13; [] []
+[2022-10-08T12:43:28.742244+03:00] name.WARNING: Type: 2; Message: Undefined variable $e; File: /Applications/MAMP/htdocs/eko-freamwork/index.php; Line: 13; [] []
+[2022-10-08T12:50:41.959200+03:00] name.WARNING: Type: 2; Message: Undefined variable $e; File: /Applications/MAMP/htdocs/eko-freamwork/index.php; Line: 12; [] []
+[2022-10-08T12:50:43.168028+03:00] name.WARNING: Type: 2; Message: Undefined variable $e; File: /Applications/MAMP/htdocs/eko-freamwork/index.php; Line: 12; [] []
